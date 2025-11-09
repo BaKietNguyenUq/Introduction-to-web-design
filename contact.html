@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/script.js"></script>
+  </head>
+  <body>
+    <!-- Website Header -->
+    <header class="header">
+      <!-- Main Navigation Bar -->
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <!-- Navigation Link: Home Page -->
+          <li><a class="link main-nav-link" href="index.html">Home</a></li>
+
+          <!-- Navigation Link: About us Page -->
+          <li>
+            <a class="link main-nav-link" href="aboutus.html">About us</a>
+          </li>
+
+          <!-- Navigation Link: Articles Page -->
+          <li><a class="link main-nav-link" href="menu.html">Articles</a></li>
+
+          <!-- Navigation Link: FAQs Page -->
+          <li><a class="link main-nav-link" href="faqs.html">FAQs</a></li>
+
+          <!-- Navigation Link: Contact Page -->
+          <li>
+            <a class="link main-nav-link nav-cta" href="contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Section: Call-To-Action / Contact Form -->
+      <section class="container display-center">
+        <!-- CTA Container -->
+        <div class="cta">
+          <!-- Decorative or background image styled in CSS -->
+          <div class="cta-image-box" role="img"></div>
+
+          <!-- CTA Text and Form Box -->
+          <div class="cta-text-box">
+            <!-- CTA Text and Form Box -->
+            <form class="cta-form" id="contact-form">
+              <!-- Form Heading -->
+              <h2>Talk With Us</h2>
+
+              <!-- Full Name Input Field -->
+              <div class="input-control">
+                <div class="error-msg"></div>
+                <input
+                  class="field"
+                  id="full-name"
+                  type="text"
+                  placeholder="Please enter your full name"
+                />
+              </div>
+
+              <!-- Email Input Field -->
+              <div class="input-control">
+                <div class="error-msg"></div>
+                <input
+                  class="field"
+                  id="email"
+                  type="text"
+                  placeholder="Please enter your email address"
+                />
+              </div>
+
+              <!-- Message Input Field -->
+              <div class="input-control">
+                <div class="error-msg"></div>
+                <textarea
+                  id="message-box"
+                  class="field contact-textarea"
+                  placeholder="Please enter your messages"
+                ></textarea>
+              </div>
+
+              <button class="btn btn-form" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- Footer: Legal information -->
+      <div class="footer-col">
+        <h3>LEGAL</h3>
+        <p>&#64;2025Bug2Fix</p>
+        <p>Website created by Ba Kiet Nguyen</p>
+      </div>
+
+      <!-- Footer: information -->
+      <div class="footer-col">
+        <h3>INFORMATION</h3>
+        <p><a href="aboutus.html" class="link">About us</a></p>
+        <p><a href="faqs.html" class="link">FAQs</a></p>
+      </div>
+
+      <!-- Footer: contact information -->
+      <div class="footer-col">
+        <h3>CONTACT</h3>
+        <p>Address: st Lucia, Brisbane, QLD</p>
+        <p>Tel: (84)9 6765 6434</p>
+      </div>
+
+      <!-- Footer: social link -->
+      <div class="footer-col">
+        <h3>CONNECT WITH US</h3>
+        <div class="footer-social-media-logo">
+          <a href="#"
+            ><img class="share_icons" src="./images/footer-facebook.png"
+          /></a>
+          <a href="#"
+            ><img class="share_icons" src="./images/footer-twitter.png"
+          /></a>
+          <a href="#"
+            ><img class="share_icons" src="./images/footer-youtube.png"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

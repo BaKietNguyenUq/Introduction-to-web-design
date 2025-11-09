@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gugi|Roboto+Condensed:400,400i,700,700i"
+      rel="stylesheet"
+    />
+    <script defer src="./js/menu.js"></script>
+  </head>
+  <body>
+    <!-- Website Header -->
+    <header class="header">
+      <!-- Main Navigation Bar -->
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <!-- Navigation Link: Home Page -->
+          <li><a class="link main-nav-link" href="index.html">Home</a></li>
+
+          <!-- Navigation Link: About us Page -->
+          <li>
+            <a class="link main-nav-link" href="aboutus.html">About us</a>
+          </li>
+
+          <!-- Navigation Link: Articles Page -->
+          <li><a class="link main-nav-link" href="menu.html">Articles</a></li>
+
+          <!-- Navigation Link: FAQs Page -->
+          <li><a class="link main-nav-link" href="faqs.html">FAQs</a></li>
+
+          <!-- Navigation Link: Contact Page -->
+          <li>
+            <a class="link main-nav-link nav-cta" href="contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Main section contains search bar and article cards -->
+      <section class="menu grid-one-col">
+        <!-- Search bar -->
+        <div class="menu-bar">
+          <input
+            id="menu-search-bar"
+            class="field"
+            type="text"
+            placeholder="Search article"
+          />
+          <!-- Filter -->
+          <select name="menuFilter" id="menu-filter" class="field">
+            <option value="All" selected>All languages</option>
+            <option value="C++">C++</option>
+            <option value="Python">Python</option>
+          </select>
+          <!-- Reset button -->
+          <button id="menu-reset-button" class="btn-reset">Reset</button>
+        </div>
+        <!-- This container holds aritcle cards -->
+        <div id="menu-container"></div>
+        <button id="btn-to-top" class="btn-reset btn-back-to-top">
+          Back to top
+        </button>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- Footer: Legal information -->
+      <div class="footer-col">
+        <h3>LEGAL</h3>
+        <p>&#64;2025Bug2Fix</p>
+        <p>Website created by Ba Kiet Nguyen</p>
+      </div>
+
+      <!-- Footer: information -->
+      <div class="footer-col">
+        <h3>INFORMATION</h3>
+        <p><a href="aboutus.html" class="link">About us</a></p>
+        <p><a href="faqs.html" class="link">FAQs</a></p>
+      </div>
+
+      <!-- Footer: contact information -->
+      <div class="footer-col">
+        <h3>CONTACT</h3>
+        <p>Address: st Lucia, Brisbane, QLD</p>
+        <p>Tel: (84)9 6765 6434</p>
+      </div>
+
+      <!-- Footer: social link -->
+      <div class="footer-col">
+        <h3>CONNECT WITH US</h3>
+        <div class="footer-social-media-logo">
+          <a href="#"
+            ><img class="share_icons" src="./images/footer-facebook.png"
+          /></a>
+          <a href="#"
+            ><img class="share_icons" src="./images/footer-twitter.png"
+          /></a>
+          <a href="#"
+            ><img class="share_icons" src="./images/footer-youtube.png"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

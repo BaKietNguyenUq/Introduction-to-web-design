@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "language": "Python",
+    "article_title": "Understanding Python Lists",
+    "article_intro": "Lists are one of the most versatile data structures in Python, allowing you to store ordered collections of items.",
+    "article_content": "Python lists are mutable, ordered collections of items. They can store elements of different types and support a wide range of operations, including indexing, slicing, and iteration.",
+    "article_code_syntax": "list_name = [element1, element2, element3]",
+    "article_code": "fruits = ['apple', 'banana', 'cherry']\nfruits.append('orange')\nprint(fruits)",
+    "article_code_output": "['apple', 'banana', 'cherry', 'orange']"
+  },
+  {
+    "id": 2,
+    "language": "C++",
+    "article_title": "Introduction to C++ Vectors",
+    "article_intro": "Vectors in C++ are dynamic arrays that can grow or shrink in size, providing powerful ways to store and manipulate data.",
+    "article_content": "C++ vectors are part of the STL (Standard Template Library). They provide dynamic memory allocation, efficient element access, and built-in methods for inserting and removing elements.",
+    "article_code_syntax": "vector &lt;data_type&gt; vector_name;",
+    "article_code": "#include &lt;iostream&gt;\n#include &lt;vector&gt;\nusing namespace std;\n\nint main() {\n    vector&lt;int&gt; numbers = {1, 2, 3};\n    numbers.push_back(4);\n    for (int num : numbers) {\n        cout &lt;&lt; num &lt;&lt; &quot; &quot;;\n    }\n    return 0;\n}",
+    "article_code_output": "1 2 3 4 "
+  },
+  {
+    "id": 3,
+    "language": "Python",
+    "article_title": "Working with Python Dictionaries",
+    "article_intro": "Dictionaries in Python are key-value pairs that allow for fast data retrieval based on a unique key.",
+    "article_content": "Python dictionaries are unordered collections of key-value pairs. They are mutable and optimized for fast data lookup.",
+    "article_code_syntax": "dictionary_name = {key1: value1, key2: value2}",
+    "article_code": "person = {'name': 'Alice', 'age': 30}\nperson['age'] = 31\nprint(person)",
+    "article_code_output": "{'name': 'Alice', 'age': 31}"
+  },
+  {
+    "id": 4,
+    "language": "C++",
+    "article_title": "C++ Arrays",
+    "article_intro": "Arrays in C++ are fixed-size collections of elements of the same type.",
+    "article_content": "C++ arrays are simple data structures for storing a fixed number of elements of the same type. They offer fast, index-based access to elements.",
+    "article_code_syntax": "data_type array_name[array_size];",
+    "article_code": "#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    int numbers[3] = {10, 20, 30};\n    for (int i = 0; i &lt; 3; i++) {\n        cout &lt;&lt; numbers[i] &lt;&lt; &quot; &quot;;\n    }\n    return 0;\n}",
+    "article_code_output": "10 20 30 "
+  },
+  {
+    "id": 5,
+    "language": "Python",
+    "article_title": "Understanding Python Functions",
+    "article_intro": "Functions in Python are reusable blocks of code that perform specific tasks.",
+    "article_content": "Functions are essential building blocks in Python programming, allowing code to be organized, reused, and made more readable.",
+    "article_code_syntax": "def function_name(parameters):",
+    "article_code": "def greet(name):\n    return f'Hello, {name}!'\n\nprint(greet('Alice'))",
+    "article_code_output": "Hello, Alice!"
+  },
+  {
+    "id": 6,
+    "language": "C++",
+    "article_title": "C++ Functions",
+    "article_intro": "Functions in C++ allow for code reusability and better program structure.",
+    "article_content": "Functions in C++ provide a way to structure programs by breaking code into reusable, named blocks.",
+    "article_code_syntax": "return_type function_name(parameters) { }",
+    "article_code": "#include &lt;iostream&gt;\nusing namespace std;\n\nint add(int a, int b) {\n    return a + b;\n}\n\nint main() {\n    cout &lt;&lt; add(5, 3);\n    return 0;\n}",
+    "article_code_output": "8"
+  }
+]

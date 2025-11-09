@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/article.js"></script>
+  </head>
+  <body>
+    <!-- Website Header -->
+    <header class="header">
+      <!-- Main Navigation Bar -->
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <!-- Navigation Link: Home Page -->
+          <li><a class="link main-nav-link" href="index.html">Home</a></li>
+
+          <!-- Navigation Link: About us Page -->
+          <li>
+            <a class="link main-nav-link" href="aboutus.html">About us</a>
+          </li>
+
+          <!-- Navigation Link: Articles Page -->
+          <li><a class="link main-nav-link" href="menu.html">Articles</a></li>
+
+          <!-- Navigation Link: FAQs Page -->
+          <li><a class="link main-nav-link" href="faqs.html">FAQs</a></li>
+
+          <!-- Navigation Link: Contact Page -->
+          <li>
+            <a class="link main-nav-link nav-cta" href="contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="article-container smaller-container">
+      <!-- Article title -->
+      <header>
+        <h1 id="article-title"></h1>
+      </header>
+
+      <!-- Article introduction -->
+      <section>
+        <h2>Introduction</h2>
+        <p id="article-intro" class="article"></p>
+      </section>
+
+      <!-- Article code syntax -->
+      <section>
+        <h2>Syntax:</h2>
+        <div class="article">
+          <pre><code id="article-code-syntax"></code></pre>
+        </div>
+      </section>
+
+      <!-- Article code example -->
+      <section>
+        <h2>Code Example</h2>
+        <div class="article">
+          <pre><code id="article-code"></code></pre>
+        </div>
+      </section>
+
+      <!-- Article ouput of the code -->
+      <section>
+        <h2>Output</h2>
+        <div class="article">
+          <pre><code id="article-code-output"></code></pre>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- Footer: Legal information -->
+      <div class="footer-col">
+        <h3>LEGAL</h3>
+        <p>&#64;2025Bug2Fix</p>
+        <p>Website created by Ba Kiet Nguyen</p>
+      </div>
+
+      <!-- Footer: information -->
+      <div class="footer-col">
+        <h3>INFORMATION</h3>
+        <p><a href="aboutus.html" class="link">About us</a></p>
+        <p><a href="faqs.html" class="link">FAQs</a></p>
+      </div>
+
+      <!-- Footer: contact information -->
+      <div class="footer-col">
+        <h3>CONTACT</h3>
+        <p>Address: st Lucia, Brisbane, QLD</p>
+        <p>Tel: (84)9 6765 6434</p>
+      </div>
+
+      <!-- Footer: social link -->
+      <div class="footer-col">
+        <h3>CONNECT WITH US</h3>
+        <div class="footer-social-media-logo">
+          <a href="#"
+            ><img class="share_icons" src="./images/footer-facebook.png"
+          /></a>
+          <a href="#"
+            ><img class="share_icons" src="./images/footer-twitter.png"
+          /></a>
+          <a href="#"
+            ><img class="share_icons" src="./images/footer-youtube.png"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
